@@ -1,0 +1,109 @@
+.sidebar{
+    display: flex;
+    flex: 0.25;
+    flex-direction: column;
+}
+
+.profile{
+    border-bottom: 1px solid whitesmoke;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border: none!important;
+    box-shadow: var(--elevation-lined)!important;
+  
+
+}
+.profile img{
+width: 100%;
+height: 80px;
+margin-bottom: -30px;
+}
+
+.App__body{
+ margin-left: 65px;
+    width: 70%;
+    padding: 0px 123px;
+    display: flex;
+}
+
+.profile__sidebar h4{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.profile__sidebar h4:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.profile__sidebar p{
+    margin: 5px 10px;
+    font-size: 13px;
+    color: lightslategray;
+}
+
+.profile__sidebar{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(170, 164, 164);
+    margin-bottom: 20px;
+}
+
+.profile__stats{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 12px;
+    padding: 4PX 12px;
+    align-items: center;
+}
+
+.profile__stats:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.sidebar__recent{
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    position: sticky;
+    top: 80px;
+}
+
+.hash span{
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+    color: rgb(106, 105, 105);
+}
+
+.sidebar__recent p{
+    margin: 6px 0 10px 6px;
+    font-size: 14px;
+    display: flex;
+    color: rgb(106, 105, 105);
+}
+
+.hash_head{
+    margin: 3px 0 20px 4px;
+    color: blue;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.set__number{
+    color: blue;
+}
+
+.profile__stats a{
+    text-decoration: none;
+}
+
+
+

@@ -1,0 +1,129 @@
+.posts{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.post__header svg{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.post__header svg:hover{
+    background-color: #dedede;
+    border-radius: 100%;
+}
+
+.posts .post__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post__headerleft{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.post__profile__details h3{
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.post__profile__details p{
+    font-size: 12px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.post__body{
+    margin-top: 8px;
+}
+
+.post__body p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.footer__iconoption{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.icon__body{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.icon__body:hover{
+    background-color: #dedede;
+}
+
+.icon__body svg{
+font-size: 20px;
+margin-right: 10px;
+color: rgb(90, 90, 90);
+}
+
+.icon__body span{
+    color: rgb(90, 90, 90);
+    font-size: 14px;
+}
+
+.post_react {
+    margin: 10px;
+    font-size: 13px;
+}
+
+.post_react > a {
+    color: gray;
+    text-decoration: none;
+    
+}
+
+.post_react > a:hover{
+    text-decoration: underline;
+}
+
+.post_left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_left > .MuiSvgIcon-root {
+    font-size: 19px;
+}
+
+.post_left > a {
+    margin-left: 6px;
+    text-decoration: none;
+}
+
+.post_right {
+    font-weight: normal;
+    color: gray;
+}
+
+.post_like{
+    color: gray;
+}
+
+.post_like:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.post_right:hover{
+    text-decoration: underline;
+    color: blue;
+}
